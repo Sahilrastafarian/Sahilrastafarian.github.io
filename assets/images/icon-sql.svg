@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="strokeYellow" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Hollow Box -->
+  <rect x="1" y="1" width="62" height="62" rx="6" stroke="url(#strokeYellow)" stroke-width="2" fill="none"/>
+
+  <!-- Database Cylinder (top ellipse) -->
+  <ellipse cx="20" cy="20" rx="10" ry="4" stroke="url(#strokeYellow)" stroke-width="2" fill="none"/>
+
+  <!-- Database Body -->
+  <path d="M10 20v12c0 2.2 4.5 4 10 4s10-1.8 10-4V20" stroke="url(#strokeYellow)" stroke-width="2" fill="none"/>
+  <path d="M10 26c0 2.2 4.5 4 10 4s10-1.8 10-4" stroke="url(#strokeYellow)" stroke-width="2" fill="none"/>
+
+  <!-- Gear Symbol -->
+  <circle cx="44" cy="36" r="6" stroke="url(#strokeYellow)" stroke-width="2" fill="none"/>
+  <path d="M44 30v-3M44 42v-3M38 36h-3M50 36h-3" stroke="url(#strokeYellow)" stroke-width="2" stroke-linecap="round"/>
+</svg>
